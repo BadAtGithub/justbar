@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>JUST BAR</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f8f8f8;
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      font-size: 2em;
+      margin-bottom: 0.2em;
+    }
+    p {
+      font-size: 1.2em;
+      color: #333;
+    }
+    .bar-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 40px;
+    }
+    .bar {
+      background: white;
+      border: 1px solid #ccc;
+      border-radius: 12px;
+      padding: 20px;
+      width: 300px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.2s ease;
+    }
+    .bar:hover {
+      transform: scale(1.03);
+    }
+    .bar img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    .bar button {
+      margin-top: 15px;
+      padding: 10px 20px;
+      font-size: 1em;
+      background: #111;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    .bar button:hover {
+      background: #333;
+    }
+    footer {
+      margin-top: 50px;
+      color: #888;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+  <h1>JUST BAR</h1>
+  <p>Simple, handmade chocolate bars – no nonsense.</p>
+
+  <div class="bar-container">
+    <!-- ZERO -->
+    <div class="bar">
+      <img src="Screenshot 2025-07-21 144752.png" alt="ZERO Bar" />
+      <button onclick="window.location.href='https://buy.stripe.com/fZufZh7wydIDagefoy8g000'">Buy ZERO</button>
+    </div>
+
+    <!-- PURE 3 -->
+    <div class="bar">
+      <img src="Screenshot 2025-07-21 151812.png" alt="PURE 3 Bar" />
+      <button onclick="window.location.href='https://buy.stripe.com/eVqeVdeZ00VR1JIfoy8g001'">Buy PURE 3</button>
+    </div>
+
+    <!-- SUGAR 3 -->
+    <div class="bar">
+      <img src="Screenshot 2025-07-21 145945.png" alt="SUGAR 3 Bar" />
+      <button onclick="window.location.href='https://buy.stripe.com/14AeVdaIKcEz5ZY5NY8g002'">Buy SUGAR 3</button>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 JUST BAR — Handmade minimalist chocolate
+  </footer>
+</body>
+</html>
